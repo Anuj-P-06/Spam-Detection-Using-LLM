@@ -69,6 +69,34 @@ To install the required packages, run:
 
 ```bash
 pip install -r requirements.txt
+```
+
+## Additional Recommendations
+
+- **GPU**: For faster training, it is recommended to use a GPU-enabled environment.
+- **CUDA**: Ensure that CUDA is properly installed and configured for optimal performance on compatible GPUs.
+- **Data Augmentation**: To further improve model accuracy, consider augmenting the dataset with additional samples if needed.
+- **Hyperparameter Tuning**: Experiment with hyperparameter tuning (e.g., learning rate, batch size) for potentially better model performance.
+
+## Dataset
+
+The dataset used in this project is the **`sms_spam`** dataset from the Hugging Face Datasets library. It contains SMS messages that are labeled as either "spam" or "ham" (not spam). The dataset is balanced, with approximately equal distributions of spam and ham messages. 
+
+You can access the dataset and further details here: [Hugging Face Datasets - SMS Spam](https://huggingface.co/datasets/sms_spam).
+
+## Training the Model
+
+To train the model, run the script **`fine_tune.py`**. This script performs the following steps:
+
+1. Loads and preprocesses the SMS spam dataset.
+2. Tokenizes the data using DistilBERT's tokenizer.
+3. Fine-tunes the DistilBERT model on the dataset using the Hugging Face `Trainer` class.
+4. Saves the fine-tuned model and tokenizer to the `./fine_tuned_model` directory for future use.
+
+Run the following command to start the training:
+
+```bash
+python fine_tune.py
 
 
 
