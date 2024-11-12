@@ -26,8 +26,9 @@ This spam detection system leverages **DistilBERT**, a lightweight transformer m
 
 To install required packages, run:
 
-
+```bash
 pip install -r requirements.txt
+```
 
 
 ## Additional Recommendations
