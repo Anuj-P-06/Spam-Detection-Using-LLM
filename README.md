@@ -125,6 +125,14 @@ streamlit run app.py
 4. **View the result**:
     - The app will classify the message as either **"Spam"** or **"Not Spam"** based on the model's prediction.
 
+## Screenshots
+
+Below are some screenshots of the app interface in action:
+
+![Screenshot 1](https://github.com/user-attachments/assets/69c9ede9-0e79-4d6b-a8a9-307fedb6501a)
+![Screenshot 2](https://github.com/user-attachments/assets/9515e0a8-c1d1-40d8-9d07-736c1f536d7f)
+
+
 ## Results
 The fine-tuned DistilBERT model provides high accuracy in classifying SMS messages as either "Spam" or "Not Spam." The results from the real-time web app demonstrate the effectiveness of using a transformer model for spam detection, with minimal latency and fast predictions.
 
