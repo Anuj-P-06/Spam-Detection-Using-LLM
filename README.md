@@ -37,6 +37,13 @@ The proposed system uses a DistilBERT transformer model fine-tuned on SMS spam d
 1. **Training Pipeline**: A Python script (`fine_tune.py`) for fine-tuning the model.
 2. **Prediction Interface**: A Streamlit-based web application (`app.py`) that loads the fine-tuned model to classify messages in real-time.
 
+### Module Description
+
+1. **Data Loading and Preprocessing**: Loads the SMS spam dataset, tokenizes it using DistilBERT's tokenizer.
+2. **Model Fine-Tuning**: Fine-tunes DistilBERT for binary classification on spam detection.
+3. **Evaluation**: Evaluates the model's performance on the validation set.
+4. **Web Application**: Streamlit app for real-time prediction.
+
 
 ### Key Files
 - **`fine_tune.py`**: Fine-tunes DistilBERT on an SMS spam dataset.
