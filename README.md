@@ -98,10 +98,35 @@ Run the following command to start the training:
 ```bash
 python fine_tune.py
 ```
-Then to run the app.py
+
+## Running the Application
+
+Once the model has been fine-tuned, you can run the Streamlit application with the following command:
 
 ```bash
-python streamlit run app.py
+streamlit run app.py
 ```
+## App Usage
 
+1. **Launch the Streamlit app**:
+    - Open a terminal or command prompt.
+    - Run the following command to start the app:
+      ```bash
+      streamlit run app.py
+      ```
+    - This will start a local server and open the web application in your default browser.
+
+2. **Enter an SMS message**:
+    - In the web app, you'll see a text box where you can type or paste an SMS message.
+
+3. **Classify the message**:
+    - After entering the message, click the **"Classify"** button.
+
+4. **View the result**:
+    - The app will classify the message as either **"Spam"** or **"Not Spam"** based on the model's prediction.
+
+## Results
+The fine-tuned DistilBERT model provides high accuracy in classifying SMS messages as either "Spam" or "Not Spam." The results from the real-time web app demonstrate the effectiveness of using a transformer model for spam detection, with minimal latency and fast predictions.
+
+This system can help users filter out unwanted messages and protect against potential spam or phishing attempts.
 
