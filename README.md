@@ -22,7 +22,7 @@ This project implements a spam detection system using a fine-tuned DistilBERT mo
 
 ## Overview
 
-This system leverages **DistilBERT**, a lightweight transformer model, fine-tuned on an SMS message dataset to classify messages as spam or not. It offers an efficient solution for filtering unwanted or harmful content in real-time.
+This system leverages **DistilBERT**, a lightweight transformer model, fine-tuned on an Email/SMS etc message dataset to classify messages as spam or not. It offers an efficient solution for filtering unwanted or harmful content in real-time.
 
 ## Problem Statement and Objectives
 
