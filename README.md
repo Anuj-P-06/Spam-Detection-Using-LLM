@@ -77,7 +77,7 @@ pip install -r requirements.txt
 - **CUDA**: Ensure that CUDA is properly installed and configured for optimal performance on compatible GPUs.
 - **Data Augmentation**: To further improve model accuracy, consider augmenting the dataset with additional samples if needed.
 - **Hyperparameter Tuning**: Experiment with hyperparameter tuning (e.g., learning rate, batch size) for potentially better model performance.
-- **Virtual Enviroment**: Create a venv files using ``` bash python -m venv myenv ``` and activate it using ``` bash source myenv/Scripts/activate ```
+- **Virtual Enviroment**: Create a venv files using ``` python -m venv myenv ``` and activate it using ``` source myenv/Scripts/activate ```
 
 
 
