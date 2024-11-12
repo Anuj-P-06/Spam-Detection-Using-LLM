@@ -97,6 +97,11 @@ Run the following command to start the training:
 
 ```bash
 python fine_tune.py
+```
+Then to run the app.py
 
+```bash
+python streamlit run app.py
+```
 
 
