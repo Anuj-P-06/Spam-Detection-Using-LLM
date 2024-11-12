@@ -48,6 +48,27 @@ To train the model, run `fine_tune.py`. This script:
 3. Fine-tunes DistilBERT using the `Trainer` class.
 4. Saves the fine-tuned model and tokenizer to the `./fine_tuned_model` directory.
 
+## Problem Statement and Objectives
+
+### Problem Statement
+
+With the increasing volume of text-based communication, there is a rising need to filter out unwanted spam messages that can be disruptive or harmful. Traditional rule-based spam filters often struggle with modern spam techniques. Leveraging transformer-based models like DistilBERT allows us to enhance the accuracy and robustness of spam detection systems.
+
+### Objectives
+
+1. Develop a robust spam classification model using a fine-tuned DistilBERT.
+2. Create a user-friendly web app to classify messages as "Spam" or "Not Spam."
+3. Demonstrate the use of large language models (LLMs) in real-world text classification tasks.
+
+## Proposed System
+
+The proposed system uses a DistilBERT transformer model fine-tuned on SMS spam datasets. The model classifies incoming messages in real-time with high accuracy. The solution includes:
+
+1. **Training Pipeline**: A Python script (`fine_tune.py`) for fine-tuning the model.
+2. **Prediction Interface**: A Streamlit-based web application (`app.py`) that loads the fine-tuned model to classify messages in real-time.
+
+### Block Diagram
+
 ```bash
 python fine_tune.py
 
