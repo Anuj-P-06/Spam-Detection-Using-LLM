@@ -108,5 +108,8 @@ To train the model, run `fine_tune.py`. This script:
                            v
                   User enters message and receives prediction
 
+## Results
+![Screenshot 2024-11-12 172040](https://github.com/user-attachments/assets/69c9ede9-0e79-4d6b-a8a9-307fedb6501a)
+![Screenshot 2024-11-12 172018](https://github.com/user-attachments/assets/9515e0a8-c1d1-40d8-9d07-736c1f536d7f)
 
 
