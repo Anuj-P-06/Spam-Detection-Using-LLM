@@ -1,0 +1,7 @@
+torch==2.5.1
+torchvision
+torchaudio
+transformers==4.33.0
+datasets==2.14.0
+streamlit==1.24.0
+huggingface_hub
